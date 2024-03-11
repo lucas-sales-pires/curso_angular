@@ -1,9 +1,9 @@
-  <app-primeiro-componente></app-primeiro-componente>
-  <app-dados-filho [name]="userName" [userData]="userData"></app-dados-filho>
-  <app-directives></app-directives>
-  <app-if-render></app-if-render>
-  <app-eventos></app-eventos>
-  <app-emitter></app-emitter>
-  <app-list-render></app-list-render>
-  <app-pipes></app-pipes>
-  <app-two-way-binding></app-two-way-binding>
+<p>Header</p>
+<nav>
+  <a routerLink="/">Home</a>
+  <a routerLink="/list">Lista</a>
+  <a routerLink="/two">Data-binding</a>
+</nav>
+<router-outlet></router-outlet>
+
+<p>Footer</p>
